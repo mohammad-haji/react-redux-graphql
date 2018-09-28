@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+*{
+  outline: none !important;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  font-size: 100%;
+  vertical-align: baseline;
+  font-family: inherit;
+  font-weight: inherit;
+  color: inherit;
+  appearance: none;
+  font-smoothing: antialiased;
+}
+
+body {
+  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1.4em;
+  background: #ffffff;
+  color: #4d4d4d;
+  margin: 5% 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  font-weight: 300;
+}
+
+button,
+input[type='checkbox'] {
+  outline: none;
+}
+
+.normal {
+  background: #fff;
+}
+
+.normal input::-webkit-input-placeholder {
+  font-style: italic;
+  font-weight: 300;
+  color: #e6e6e6;
+}
+
+.normal input::-moz-placeholder {
+  font-style: italic;
+  font-weight: 300;
+  color: #e6e6e6;
+}
+
+.normal input::input-placeholder {
+  font-style: italic;
+  font-weight: 300;
+  color: #e6e6e6;
+}
+
+.normal h1 {
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  color: #777;
+}
